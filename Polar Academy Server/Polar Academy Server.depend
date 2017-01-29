@@ -1,0 +1,47 @@
+# depslib dependency file v1.0
+1434661720 source:c:\users\meta\desktop\c++ projects\polar academy server\src\maincore.cpp
+	"MainCore.h"
+
+1434662024 c:\users\meta\desktop\c++ projects\polar academy server\include\maincore.h
+	<windows.h>
+	<iostream>
+	<ServerCore.h>
+
+1434664002 source:c:\users\meta\desktop\c++ projects\polar academy server\src\servercore.cpp
+	"ServerCore.h"
+	"ServerCore.h"
+
+1434670915 c:\users\meta\desktop\c++ projects\polar academy server\include\servercore.h
+	<winsock2.h>
+	<string>
+	<vector>
+	<iostream>
+	<stdio.h>
+
+1434664004 source:c:\users\meta\desktop\polar academy server\src\servercore.cpp
+	"ServerCore.h"
+	"ServerCore.h"
+
+1434670916 c:\users\meta\desktop\polar academy server\include\servercore.h
+	<winsock2.h>
+	<string>
+	<vector>
+	<iostream>
+	<stdio.h>
+
+1434767628 source:c:\users\meta\desktop\polar academy server\src\maincore.cpp
+	"MainCore.h"
+
+1434767998 c:\users\meta\desktop\polar academy server\include\maincore.h
+	<windows.h>
+	<iostream>
+	<ServerCore.h>
+	<PlayerDataCore.h>
+
+1434767998 c:\users\meta\desktop\polar academy server\include\playerdatacore.h
+	<winsock2.h>
+	<string>
+
+1434767584 source:c:\users\meta\desktop\polar academy server\src\playerdatacore.cpp
+	"PlayerDataCore.h"
+

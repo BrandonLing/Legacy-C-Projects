@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="Conjure" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug">
+				<Option output="bin/Debug/Conjure" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Debug/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-std=c++11" />
+					<Add option="-g" />
+					<Add option="-static-libgcc -static-libstdc++" />
+					<Add directory="include" />
+					<Add directory="C:/Users/Meta/Desktop/C++ Libraries/SDL2-2.0.3/i686-w64-mingw32/include" />
+					<Add directory="C:/Users/Meta/Desktop/C++ Libraries/SDL2_image-2.0.0/i686-w64-mingw32/include" />
+					<Add directory="C:/Users/Meta/Desktop/C++ Libraries/SDL2_ttf-2.0.12/i686-w64-mingw32/include" />
+				</Compiler>
+				<Linker>
+					<Add option="-lSDL2main -lSDL2" />
+					<Add option="-lSDL2_ttf" />
+					<Add option="-lSDL2_image" />
+					<Add option="-lSDL2_mixer" />
+					<Add option="-lglew32" />
+					<Add option="-lopengl32 -glu32 -gdi32" />
+					<Add directory="C:/Users/Meta/Desktop/C++ Libraries/SDL2-2.0.3/i686-w64-mingw32/lib" />
+					<Add directory="C:/Users/Meta/Desktop/C++ Libraries/SDL2_image-2.0.0/i686-w64-mingw32/lib" />
+					<Add directory="C:/Users/Meta/Desktop/C++ Libraries/SDL2_ttf-2.0.12/i686-w64-mingw32/lib" />
+					<Add directory="C:/Users/Meta/Desktop/C++ Libraries/glew-1.12.0/lib/Release/Win32" />
+				</Linker>
+			</Target>
+			<Target title="Release">
+				<Option output="bin/Release/Conjure" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Release/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+					<Add directory="include" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+			<Add directory="C:/Users/Meta/Desktop/C++ Libraries/SDL2-2.0.3/include" />
+			<Add directory="C:/Users/Meta/Desktop/C++ Libraries/SDL2_image-2.0.0/i686-w64-mingw32/include" />
+			<Add directory="C:/Users/Meta/Desktop/C++ Libraries/SDL2_ttf-2.0.12/i686-w64-mingw32/include" />
+			<Add directory="C:/Users/Meta/Desktop/C++ Libraries/glew-1.12.0/include" />
+			<Add directory="C:/Users/Meta/Desktop/C++ Libraries" />
+			<Add directory="C:/Users/Meta/Desktop/C++ Libraries/SDL2_mixer-2.0.0/i686-w64-mingw32/include" />
+		</Compiler>
+		<Linker>
+			<Add directory="C:/Users/Meta/Desktop/C++ Libraries/SDL2-2.0.3/i686-w64-mingw32/lib" />
+			<Add directory="C:/Users/Meta/Desktop/C++ Libraries/SDL2_image-2.0.0/i686-w64-mingw32/lib" />
+			<Add directory="C:/Users/Meta/Desktop/C++ Libraries/SDL2_ttf-2.0.12/i686-w64-mingw32/lib" />
+			<Add directory="C:/Users/Meta/Desktop/C++ Libraries/SDL2_mixer-2.0.0/i686-w64-mingw32/lib" />
+		</Linker>
+		<Unit filename="include/Camera.h" />
+		<Unit filename="include/EventProcessCore.h" />
+		<Unit filename="include/EventQueueCore.h" />
+		<Unit filename="include/FontCore.h" />
+		<Unit filename="include/GameDataCore.h" />
+		<Unit filename="include/GameObject.h" />
+		<Unit filename="include/InputCore.h" />
+		<Unit filename="include/IsoConversion.h" />
+		<Unit filename="include/MainCore.h" />
+		<Unit filename="include/MapCore.h" />
+		<Unit filename="include/MonsterCore.h" />
+		<Unit filename="include/RenderCore.h" />
+		<Unit filename="include/ResourceCore.h" />
+		<Unit filename="include/ShaderCore.h" />
+		<Unit filename="include/SoundProcessCore.h" />
+		<Unit filename="include/SoundQueueCore.h" />
+		<Unit filename="include/SpriteCore.h" />
+		<Unit filename="include/spriteTextureCoords.h" />
+		<Unit filename="src/Camera.cpp" />
+		<Unit filename="src/EventProcessCore.cpp" />
+		<Unit filename="src/EventQueueCore.cpp" />
+		<Unit filename="src/FontCore.cpp" />
+		<Unit filename="src/GameDataCore.cpp" />
+		<Unit filename="src/GameObject.cpp" />
+		<Unit filename="src/InputCore.cpp" />
+		<Unit filename="src/IsoConversion.cpp" />
+		<Unit filename="src/MainCore.cpp" />
+		<Unit filename="src/MapCore.cpp" />
+		<Unit filename="src/MonsterCore.cpp" />
+		<Unit filename="src/RenderCore.cpp" />
+		<Unit filename="src/ResourceCore.cpp" />
+		<Unit filename="src/ShaderCore.cpp" />
+		<Unit filename="src/SoundProcessCore.cpp" />
+		<Unit filename="src/SoundQueueCore.cpp" />
+		<Unit filename="src/SpriteCore.cpp" />
+		<Unit filename="src/glew.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="src/spriteTextureCoords.cpp" />
+		<Extensions>
+			<code_completion />
+			<envvars />
+			<debugger />
+			<lib_finder disable_auto="1" />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>

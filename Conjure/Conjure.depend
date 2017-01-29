@@ -1,0 +1,1204 @@
+# depslib dependency file v1.0
+1437676928 source:c:\users\meta\desktop\c++ projects\conjure\src\maincore.cpp
+	"MainCore.h"
+
+1437794526 c:\users\meta\desktop\c++ projects\conjure\include\maincore.h
+	<iostream>
+	<windows.h>
+	<GameDataCore.h>
+	<ShaderCore.h>
+	<RenderCore.h>
+	<InputCore.h>
+	<EventQueueCore.h>
+	<EventProcessCore.h>
+	<CollisionCore.h>
+	<CollisionProcessCore.h>
+	<ResourceCore.h>
+
+1436518902 source:c:\users\meta\desktop\c++ projects\conjure\src\eventqueuecore.cpp
+	"EventQueueCore.h"
+
+1436335693 c:\users\meta\desktop\c++ projects\conjure\include\eventqueuecore.h
+	<iostream>
+	<list>
+	<SDL2/SDL.h>
+
+1435742449 source:c:\users\meta\desktop\c++ projects\conjure\src\inputcore.cpp
+	"InputCore.h"
+
+1435739113 c:\users\meta\desktop\c++ projects\conjure\include\inputcore.h
+	<iostream>
+	<stdio.h>
+	<SDL2/SDL.h>
+	<EventQueueCore.h>
+
+1437795811 source:c:\users\meta\desktop\c++ projects\conjure\src\rendercore.cpp
+	"RenderCore.h"
+
+1437606568 c:\users\meta\desktop\c++ projects\conjure\include\rendercore.h
+	<GL/glew.h>
+	<iostream>
+	<stdio.h>
+	<SDL2/SDL.h>
+	<SDL2/SDL_opengl.h>
+	<string>
+	<vector>
+	<GameDataCore.h>
+	<GameObject.h>
+	<ShaderCore.h>
+	<ResourceCore.h>
+
+1437061623 source:c:\users\meta\desktop\c++ projects\conjure\src\eventprocesscore.cpp
+	"EventProcessCore.h"
+
+1436329644 c:\users\meta\desktop\c++ projects\conjure\include\eventprocesscore.h
+	<iostream>
+	<SDL2/SDL.h>
+	<EventQueueCore.h>
+	<GameDataCore.h>
+
+1437792383 source:c:\users\meta\desktop\c++ projects\conjure\src\gamedatacore.cpp
+	"GameDataCore.h"
+
+1437597813 c:\users\meta\desktop\c++ projects\conjure\include\gamedatacore.h
+	<iostream>
+	<GameObject.h>
+	<string>
+	<vector>
+	<Camera.h>
+	<ResourceCore.h>
+	<FontCore.h>
+
+1437779384 c:\users\meta\desktop\c++ projects\conjure\include\gameobject.h
+	<vector>
+	<string>
+	<stdlib.h>
+	<iostream>
+
+1436446398 source:c:\users\meta\desktop\c++ projects\conjure\src\gameobject.cpp
+	"GameObject.h"
+
+1437597967 c:\users\meta\desktop\c++ projects\conjure\include\shadercore.h
+	<iostream>
+	<GL/glew.h>
+	<string>
+	<vector>
+	<iostream>
+	<fstream>
+	<glm/glm.hpp>
+	<glm/gtc/matrix_transform.hpp>
+	<glm/gtc/type_ptr.hpp>
+	<GameDataCore.h>
+	<ResourceCore.h>
+
+1437673518 source:c:\users\meta\desktop\c++ projects\conjure\src\shadercore.cpp
+	"ShaderCore.h"
+
+1437511591 c:\users\meta\desktop\c++ projects\conjure\include\camera.h
+	<iostream>
+	<glm/glm.hpp>
+	<glm/gtc/matrix_transform.hpp>
+	<glm/gtc/type_ptr.hpp>
+
+1437497525 source:c:\users\meta\desktop\c++ projects\conjure\src\camera.cpp
+	"Camera.h"
+
+1437041764 source:c:\users\meta\desktop\c++ projects\conjure\src\collisioncore.cpp
+	"CollisionCore.h"
+
+1436699726 c:\users\meta\desktop\c++ projects\conjure\include\collisioncore.h
+	<iostream>
+	<vector>
+	<list>
+	<GameObject.h>
+	<CollideEvent.h>
+	<GameDataCore.h>
+
+1436820575 c:\users\meta\desktop\c++ projects\conjure\include\collideevent.h
+	<vector>
+
+1436615182 source:c:\users\meta\desktop\c++ projects\conjure\src\collideevent.cpp
+	"CollideEvent.h"
+
+1437047000 source:c:\users\meta\desktop\c++ projects\conjure\src\collisionprocesscore.cpp
+	"CollisionProcessCore.h"
+
+1436991633 c:\users\meta\desktop\c++ projects\conjure\include\collisionprocesscore.h
+	<CollisionCore.h>
+	<GameDataCore.h>
+
+1437405017 c:\users\meta\desktop\c++ projects\conjure\include\fontcore.h
+	<iostream>
+	<GL/glew.h>
+	<SDL2/SDL_ttf.h>
+	<vector>
+
+1437412955 source:c:\users\meta\desktop\c++ projects\conjure\src\fontcore.cpp
+	"FontCore.h"
+
+1437791491 source:c:\users\meta\desktop\c++ projects\conjure\src\spritecore.cpp
+	"SpriteCore.h"
+
+1437780495 c:\users\meta\desktop\c++ projects\conjure\include\spritecore.h
+	<iostream>
+	<GL/glew.h>
+	<SDL2/SDL.h>
+	<SDL2/SDL_image.h>
+	<string>
+	<vector>
+	<spriteTextureCoords.h>
+
+1437598589 c:\users\meta\desktop\c++ projects\conjure\include\resourcecore.h
+	<FontCore.h>
+	<SpriteCore.h>
+
+1437601036 source:c:\users\meta\desktop\c++ projects\conjure\src\resourcecore.cpp
+	"ResourceCore.h"
+
+1437781284 c:\users\meta\desktop\c++ projects\conjure\include\spritetexturecoords.h
+
+1437780487 source:c:\users\meta\desktop\c++ projects\conjure\src\spritetexturecoords.cpp
+	"spriteTextureCoords.h"
+
+1440647958 source:c:\users\meta\desktop\conjure\src\camera.cpp
+	"Camera.h"
+
+1442001722 c:\users\meta\desktop\conjure\include\camera.h
+	<iostream>
+	<glm/glm.hpp>
+	<glm/gtc/matrix_transform.hpp>
+	<glm/gtc/type_ptr.hpp>
+	<IsoConversion.h>
+	<MapCore.h>
+
+1436618782 source:c:\users\meta\desktop\conjure\src\collideevent.cpp
+	"CollideEvent.h"
+
+1436824175 c:\users\meta\desktop\conjure\include\collideevent.h
+	<vector>
+
+1438748645 source:c:\users\meta\desktop\conjure\src\collisioncore.cpp
+	"CollisionCore.h"
+
+1436703326 c:\users\meta\desktop\conjure\include\collisioncore.h
+	<iostream>
+	<vector>
+	<list>
+	<GameObject.h>
+	<CollideEvent.h>
+	<GameDataCore.h>
+
+1442293179 c:\users\meta\desktop\conjure\include\gameobject.h
+	<vector>
+	<list>
+	<string>
+	<stdlib.h>
+	<math.h>
+	<time.h>
+	<iostream>
+
+1451509981 c:\users\meta\desktop\conjure\include\gamedatacore.h
+	<Camera.h>
+
+1437598589 c:\users\meta\desktop\conjure\include\resourcecore.h
+	<FontCore.h>
+	<SpriteCore.h>
+
+1437405017 c:\users\meta\desktop\conjure\include\fontcore.h
+	<iostream>
+	<GL/glew.h>
+	<SDL2/SDL_ttf.h>
+	<vector>
+
+1440273439 c:\users\meta\desktop\conjure\include\spritecore.h
+	<iostream>
+	<GL/glew.h>
+	<SDL.h>
+	<SDL2/SDL_image.h>
+	<string>
+	<vector>
+	<spriteTextureCoords.h>
+
+1438774041 c:\users\meta\desktop\conjure\include\spritetexturecoords.h
+
+1437050600 source:c:\users\meta\desktop\conjure\src\collisionprocesscore.cpp
+	"CollisionProcessCore.h"
+
+1436995233 c:\users\meta\desktop\conjure\include\collisionprocesscore.h
+	<CollisionCore.h>
+	<GameDataCore.h>
+
+1442419591 source:c:\users\meta\desktop\conjure\src\eventprocesscore.cpp
+	"EventProcessCore.h"
+
+1441919854 c:\users\meta\desktop\conjure\include\eventprocesscore.h
+	<iostream>
+	<stdlib.h>
+	<SDL.h>
+	<EventQueueCore.h>
+	<GameDataCore.h>
+	<MonsterCore.h>
+
+1441746528 c:\users\meta\desktop\conjure\include\eventqueuecore.h
+	<iostream>
+	<list>
+	<SDL.h>
+
+1441746528 source:c:\users\meta\desktop\conjure\src\eventqueuecore.cpp
+	"EventQueueCore.h"
+
+1437412955 source:c:\users\meta\desktop\conjure\src\fontcore.cpp
+	"FontCore.h"
+
+1442378001 source:c:\users\meta\desktop\conjure\src\gamedatacore.cpp
+	"GameDataCore.h"
+
+1436446398 source:c:\users\meta\desktop\conjure\src\gameobject.cpp
+	"GameObject.h"
+
+1440751215 source:c:\users\meta\desktop\conjure\src\inputcore.cpp
+	"InputCore.h"
+
+1438745170 c:\users\meta\desktop\conjure\include\inputcore.h
+	<iostream>
+	<stdio.h>
+	<SDL.h>
+	<EventQueueCore.h>
+
+1442180044 source:c:\users\meta\desktop\conjure\src\maincore.cpp
+	"MainCore.h"
+
+1442180044 c:\users\meta\desktop\conjure\include\maincore.h
+	<iostream>
+	<windows.h>
+	<time.h>
+	<GameDataCore.h>
+	<ShaderCore.h>
+	<RenderCore.h>
+	<InputCore.h>
+	<EventQueueCore.h>
+	<EventProcessCore.h>
+	<ResourceCore.h>
+	<MapCore.h>
+	<MonsterCore.h>
+	<SoundProcessCore.h>
+	<SoundQueueCore.h>
+
+1438861572 c:\users\meta\desktop\conjure\include\shadercore.h
+	<iostream>
+	<GL/glew.h>
+	<string>
+	<vector>
+	<fstream>
+	<glm/glm.hpp>
+	<glm/gtc/matrix_transform.hpp>
+	<glm/gtc/type_ptr.hpp>
+	<GameDataCore.h>
+	<ResourceCore.h>
+	<MapCore.h>
+
+1448087916 c:\users\meta\desktop\conjure\include\rendercore.h
+	<GL/glew.h>
+	<iostream>
+	<stdio.h>
+	<SDL.h>
+	<SDL_opengl.h>
+	<string>
+	<list>
+	<vector>
+	<IsoConversion.h>
+	<math.h>
+	<GameDataCore.h>
+	<GameObject.h>
+	<ShaderCore.h>
+	<ResourceCore.h>
+	<MapCore.h>
+
+1442423101 source:c:\users\meta\desktop\conjure\src\rendercore.cpp
+	"RenderCore.h"
+
+1437601036 source:c:\users\meta\desktop\conjure\src\resourcecore.cpp
+	"ResourceCore.h"
+
+1439052713 source:c:\users\meta\desktop\conjure\src\shadercore.cpp
+	"ShaderCore.h"
+
+1442292271 source:c:\users\meta\desktop\conjure\src\spritecore.cpp
+	"SpriteCore.h"
+
+1437780487 source:c:\users\meta\desktop\conjure\src\spritetexturecoords.cpp
+	"spriteTextureCoords.h"
+
+1376156342 c:\users\meta\desktop\c++ libraries\sdl2_image-2.0.0\i686-w64-mingw32\include\sdl2\sdl_image.h
+	"SDL.h"
+	"SDL_version.h"
+	"begin_code.h"
+	"close_code.h"
+
+1394253593 c:\users\meta\desktop\c++ libraries\sdl2-2.0.3\include\sdl.h
+	"SDL_main.h"
+	"SDL_stdinc.h"
+	"SDL_assert.h"
+	"SDL_atomic.h"
+	"SDL_audio.h"
+	"SDL_clipboard.h"
+	"SDL_cpuinfo.h"
+	"SDL_endian.h"
+	"SDL_error.h"
+	"SDL_events.h"
+	"SDL_filesystem.h"
+	"SDL_joystick.h"
+	"SDL_gamecontroller.h"
+	"SDL_haptic.h"
+	"SDL_hints.h"
+	"SDL_loadso.h"
+	"SDL_log.h"
+	"SDL_messagebox.h"
+	"SDL_mutex.h"
+	"SDL_power.h"
+	"SDL_render.h"
+	"SDL_rwops.h"
+	"SDL_system.h"
+	"SDL_thread.h"
+	"SDL_timer.h"
+	"SDL_version.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1394253593 c:\users\meta\desktop\c++ libraries\sdl2-2.0.3\include\sdl_main.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1394253593 c:\users\meta\desktop\c++ libraries\sdl2-2.0.3\include\sdl_stdinc.h
+	"SDL_config.h"
+	<sys/types.h>
+	<stdio.h>
+	<stdlib.h>
+	<stddef.h>
+	<stdarg.h>
+	<stdlib.h>
+	<malloc.h>
+	<stddef.h>
+	<stdarg.h>
+	<memory.h>
+	<string.h>
+	<strings.h>
+	<inttypes.h>
+	<stdint.h>
+	<ctype.h>
+	<math.h>
+	<iconv.h>
+	"begin_code.h"
+	<alloca.h>
+	<malloc.h>
+	<malloc.h>
+	<malloc.h>
+	<stdlib.h>
+	"close_code.h"
+
+1394253593 c:\users\meta\desktop\c++ libraries\sdl2-2.0.3\include\sdl_config.h
+	"SDL_platform.h"
+
+1394253593 c:\users\meta\desktop\c++ libraries\sdl2-2.0.3\include\sdl_platform.h
+	"AvailabilityMacros.h"
+	"TargetConditionals.h"
+	"begin_code.h"
+	"close_code.h"
+
+1394253593 c:\users\meta\desktop\c++ libraries\sdl2-2.0.3\include\begin_code.h
+
+1394253593 c:\users\meta\desktop\c++ libraries\sdl2-2.0.3\include\close_code.h
+
+1394253593 c:\users\meta\desktop\c++ libraries\sdl2-2.0.3\include\sdl_assert.h
+	"SDL_config.h"
+	"begin_code.h"
+	<signal.h>
+	"close_code.h"
+
+1394253593 c:\users\meta\desktop\c++ libraries\sdl2-2.0.3\include\sdl_atomic.h
+	"SDL_stdinc.h"
+	"SDL_platform.h"
+	"begin_code.h"
+	"close_code.h"
+
+1394253593 c:\users\meta\desktop\c++ libraries\sdl2-2.0.3\include\sdl_audio.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_endian.h"
+	"SDL_mutex.h"
+	"SDL_thread.h"
+	"SDL_rwops.h"
+	"begin_code.h"
+	"close_code.h"
+
+1394253593 c:\users\meta\desktop\c++ libraries\sdl2-2.0.3\include\sdl_error.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1394253593 c:\users\meta\desktop\c++ libraries\sdl2-2.0.3\include\sdl_endian.h
+	"SDL_stdinc.h"
+	<endian.h>
+	"begin_code.h"
+	"close_code.h"
+
+1394253593 c:\users\meta\desktop\c++ libraries\sdl2-2.0.3\include\sdl_mutex.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1394253593 c:\users\meta\desktop\c++ libraries\sdl2-2.0.3\include\sdl_thread.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_atomic.h"
+	"SDL_mutex.h"
+	"begin_code.h"
+	<process.h>
+	"close_code.h"
+
+1394253593 c:\users\meta\desktop\c++ libraries\sdl2-2.0.3\include\sdl_rwops.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1394253593 c:\users\meta\desktop\c++ libraries\sdl2-2.0.3\include\sdl_clipboard.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1394253593 c:\users\meta\desktop\c++ libraries\sdl2-2.0.3\include\sdl_cpuinfo.h
+	"SDL_stdinc.h"
+	<intrin.h>
+	<intrin.h>
+	<altivec.h>
+	<mmintrin.h>
+	<mm3dnow.h>
+	<xmmintrin.h>
+	<emmintrin.h>
+	"begin_code.h"
+	"close_code.h"
+
+1394253593 c:\users\meta\desktop\c++ libraries\sdl2-2.0.3\include\sdl_events.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_video.h"
+	"SDL_keyboard.h"
+	"SDL_mouse.h"
+	"SDL_joystick.h"
+	"SDL_gamecontroller.h"
+	"SDL_quit.h"
+	"SDL_gesture.h"
+	"SDL_touch.h"
+	"begin_code.h"
+	"close_code.h"
+
+1394253593 c:\users\meta\desktop\c++ libraries\sdl2-2.0.3\include\sdl_video.h
+	"SDL_stdinc.h"
+	"SDL_pixels.h"
+	"SDL_rect.h"
+	"SDL_surface.h"
+	"begin_code.h"
+	"close_code.h"
+
+1394253593 c:\users\meta\desktop\c++ libraries\sdl2-2.0.3\include\sdl_pixels.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1394253593 c:\users\meta\desktop\c++ libraries\sdl2-2.0.3\include\sdl_rect.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_pixels.h"
+	"SDL_rwops.h"
+	"begin_code.h"
+	"close_code.h"
+
+1394253593 c:\users\meta\desktop\c++ libraries\sdl2-2.0.3\include\sdl_surface.h
+	"SDL_stdinc.h"
+	"SDL_pixels.h"
+	"SDL_rect.h"
+	"SDL_blendmode.h"
+	"SDL_rwops.h"
+	"begin_code.h"
+	"close_code.h"
+
+1394253593 c:\users\meta\desktop\c++ libraries\sdl2-2.0.3\include\sdl_blendmode.h
+	"begin_code.h"
+	"close_code.h"
+
+1394253593 c:\users\meta\desktop\c++ libraries\sdl2-2.0.3\include\sdl_keyboard.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_keycode.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1394253593 c:\users\meta\desktop\c++ libraries\sdl2-2.0.3\include\sdl_keycode.h
+	"SDL_stdinc.h"
+	"SDL_scancode.h"
+
+1394253593 c:\users\meta\desktop\c++ libraries\sdl2-2.0.3\include\sdl_scancode.h
+	"SDL_stdinc.h"
+
+1394253593 c:\users\meta\desktop\c++ libraries\sdl2-2.0.3\include\sdl_mouse.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1394253593 c:\users\meta\desktop\c++ libraries\sdl2-2.0.3\include\sdl_joystick.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1394253593 c:\users\meta\desktop\c++ libraries\sdl2-2.0.3\include\sdl_gamecontroller.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_rwops.h"
+	"SDL_joystick.h"
+	"begin_code.h"
+	"close_code.h"
+
+1394253593 c:\users\meta\desktop\c++ libraries\sdl2-2.0.3\include\sdl_quit.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+
+1394253593 c:\users\meta\desktop\c++ libraries\sdl2-2.0.3\include\sdl_gesture.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_video.h"
+	"SDL_touch.h"
+	"begin_code.h"
+	"close_code.h"
+
+1394253593 c:\users\meta\desktop\c++ libraries\sdl2-2.0.3\include\sdl_touch.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1394253593 c:\users\meta\desktop\c++ libraries\sdl2-2.0.3\include\sdl_filesystem.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1394253593 c:\users\meta\desktop\c++ libraries\sdl2-2.0.3\include\sdl_haptic.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_joystick.h"
+	"begin_code.h"
+	"close_code.h"
+
+1394253593 c:\users\meta\desktop\c++ libraries\sdl2-2.0.3\include\sdl_hints.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1394253593 c:\users\meta\desktop\c++ libraries\sdl2-2.0.3\include\sdl_loadso.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1394253593 c:\users\meta\desktop\c++ libraries\sdl2-2.0.3\include\sdl_log.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1394253593 c:\users\meta\desktop\c++ libraries\sdl2-2.0.3\include\sdl_messagebox.h
+	"SDL_stdinc.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1394253593 c:\users\meta\desktop\c++ libraries\sdl2-2.0.3\include\sdl_power.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1394253593 c:\users\meta\desktop\c++ libraries\sdl2-2.0.3\include\sdl_render.h
+	"SDL_stdinc.h"
+	"SDL_rect.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1394253593 c:\users\meta\desktop\c++ libraries\sdl2-2.0.3\include\sdl_system.h
+	"SDL_stdinc.h"
+	"SDL_keyboard.h"
+	"SDL_render.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1394253593 c:\users\meta\desktop\c++ libraries\sdl2-2.0.3\include\sdl_timer.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1394253593 c:\users\meta\desktop\c++ libraries\sdl2-2.0.3\include\sdl_version.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1376156543 c:\users\meta\desktop\c++ libraries\sdl2_ttf-2.0.12\i686-w64-mingw32\include\sdl2\sdl_ttf.h
+	"SDL.h"
+	"begin_code.h"
+	"close_code.h"
+
+1422332293 c:\users\meta\desktop\c++ libraries\glew-1.12.0\include\gl\glew.h
+	<stddef.h>
+	<inttypes.h>
+	<stdint.h>
+	<inttypes.h>
+	<Availability.h>
+	<OpenGL/glu.h>
+	<GL/glu.h>
+
+1424014283 c:\users\meta\desktop\c++ libraries\glm\glm.hpp
+	"detail/_fixes.hpp"
+	<cmath>
+	<climits>
+	<cfloat>
+	<limits>
+	<cassert>
+	"fwd.hpp"
+	"vec2.hpp"
+	"vec3.hpp"
+	"vec4.hpp"
+	"mat2x2.hpp"
+	"mat2x3.hpp"
+	"mat2x4.hpp"
+	"mat3x2.hpp"
+	"mat3x3.hpp"
+	"mat3x4.hpp"
+	"mat4x2.hpp"
+	"mat4x3.hpp"
+	"mat4x4.hpp"
+	"trigonometric.hpp"
+	"exponential.hpp"
+	"common.hpp"
+	"packing.hpp"
+	"geometric.hpp"
+	"matrix.hpp"
+	"vector_relational.hpp"
+	"integer.hpp"
+
+1424014283 c:\users\meta\desktop\c++ libraries\glm\detail\_fixes.hpp
+	<cmath>
+
+1438464936 c:\users\meta\desktop\c++ libraries\glm\fwd.hpp
+	"detail/type_int.hpp"
+	"detail/type_float.hpp"
+	"detail/type_vec.hpp"
+	"detail/type_mat.hpp"
+
+1424014283 c:\users\meta\desktop\c++ libraries\glm\detail\type_int.hpp
+	"setup.hpp"
+	<type_traits>
+	<cstdint>
+
+1438503727 c:\users\meta\desktop\c++ libraries\glm\detail\setup.hpp
+	<cassert>
+	<cstddef>
+	<cuda.h>
+	<__config>
+	<intrin.h>
+	<immintrin.h>
+	<immintrin.h>
+	<smmintrin.h>
+	<pmmintrin.h>
+	<emmintrin.h>
+
+1424014283 c:\users\meta\desktop\c++ libraries\glm\detail\type_float.hpp
+	"setup.hpp"
+
+1438465103 c:\users\meta\desktop\c++ libraries\glm\detail\type_vec.hpp
+	"precision.hpp"
+	"type_int.hpp"
+
+1424014283 c:\users\meta\desktop\c++ libraries\glm\detail\precision.hpp
+
+1424014283 c:\users\meta\desktop\c++ libraries\glm\detail\type_mat.hpp
+	"precision.hpp"
+
+1424014283 c:\users\meta\desktop\c++ libraries\glm\vec2.hpp
+	"detail/type_vec2.hpp"
+
+1438468562 c:\users\meta\desktop\c++ libraries\glm\detail\type_vec2.hpp
+	"type_vec.hpp"
+	"_swizzle.hpp"
+	"_swizzle_func.hpp"
+	<cstddef>
+	"type_vec2.inl"
+
+1424014283 c:\users\meta\desktop\c++ libraries\glm\detail\_swizzle.hpp
+
+1424014283 c:\users\meta\desktop\c++ libraries\glm\detail\_swizzle_func.hpp
+
+1438469466 c:\users\meta\desktop\c++ libraries\glm\detail\type_vec2.inl
+
+1424014283 c:\users\meta\desktop\c++ libraries\glm\vec3.hpp
+	"detail/type_vec3.hpp"
+
+1438468787 c:\users\meta\desktop\c++ libraries\glm\detail\type_vec3.hpp
+	"type_vec.hpp"
+	"_swizzle.hpp"
+	"_swizzle_func.hpp"
+	<cstddef>
+	"type_vec3.inl"
+
+1438469376 c:\users\meta\desktop\c++ libraries\glm\detail\type_vec3.inl
+
+1424014283 c:\users\meta\desktop\c++ libraries\glm\vec4.hpp
+	"detail/type_vec4.hpp"
+
+1438468857 c:\users\meta\desktop\c++ libraries\glm\detail\type_vec4.hpp
+	"setup.hpp"
+	"type_vec.hpp"
+	"_swizzle.hpp"
+	"_swizzle_func.hpp"
+	<cstddef>
+	"type_vec4.inl"
+
+1438471229 c:\users\meta\desktop\c++ libraries\glm\detail\type_vec4.inl
+	"type_vec4_sse2.inl"
+	"type_vec4_avx.inl"
+	"type_vec4_avx2.inl"
+
+1437778904 c:\users\meta\desktop\c++ libraries\glm\detail\type_vec4_sse2.inl
+
+1424014283 c:\users\meta\desktop\c++ libraries\glm\detail\type_vec4_avx.inl
+
+1424014283 c:\users\meta\desktop\c++ libraries\glm\detail\type_vec4_avx2.inl
+
+1424014283 c:\users\meta\desktop\c++ libraries\glm\mat2x2.hpp
+	"detail/type_mat2x2.hpp"
+
+1438468511 c:\users\meta\desktop\c++ libraries\glm\detail\type_mat2x2.hpp
+	"../fwd.hpp"
+	"type_vec2.hpp"
+	"type_mat.hpp"
+	<limits>
+	<cstddef>
+	"type_mat2x2.inl"
+
+1438470808 c:\users\meta\desktop\c++ libraries\glm\detail\type_mat2x2.inl
+
+1424014283 c:\users\meta\desktop\c++ libraries\glm\mat2x3.hpp
+	"detail/type_mat2x3.hpp"
+
+1438468469 c:\users\meta\desktop\c++ libraries\glm\detail\type_mat2x3.hpp
+	"../fwd.hpp"
+	"type_vec2.hpp"
+	"type_vec3.hpp"
+	"type_mat.hpp"
+	<limits>
+	<cstddef>
+	"type_mat2x3.inl"
+
+1438470737 c:\users\meta\desktop\c++ libraries\glm\detail\type_mat2x3.inl
+
+1424014283 c:\users\meta\desktop\c++ libraries\glm\mat2x4.hpp
+	"detail/type_mat2x4.hpp"
+
+1438468425 c:\users\meta\desktop\c++ libraries\glm\detail\type_mat2x4.hpp
+	"../fwd.hpp"
+	"type_vec2.hpp"
+	"type_vec4.hpp"
+	"type_mat.hpp"
+	<limits>
+	<cstddef>
+	"type_mat2x4.inl"
+
+1438470573 c:\users\meta\desktop\c++ libraries\glm\detail\type_mat2x4.inl
+
+1424014283 c:\users\meta\desktop\c++ libraries\glm\mat3x2.hpp
+	"detail/type_mat3x2.hpp"
+
+1438468285 c:\users\meta\desktop\c++ libraries\glm\detail\type_mat3x2.hpp
+	"../fwd.hpp"
+	"type_vec2.hpp"
+	"type_vec3.hpp"
+	"type_mat.hpp"
+	<limits>
+	<cstddef>
+	"type_mat3x2.inl"
+
+1438470418 c:\users\meta\desktop\c++ libraries\glm\detail\type_mat3x2.inl
+
+1424014283 c:\users\meta\desktop\c++ libraries\glm\mat3x3.hpp
+	"detail/type_mat3x3.hpp"
+
+1438468227 c:\users\meta\desktop\c++ libraries\glm\detail\type_mat3x3.hpp
+	"../fwd.hpp"
+	"type_vec3.hpp"
+	"type_mat.hpp"
+	<limits>
+	<cstddef>
+	"type_mat3x3.inl"
+
+1438470302 c:\users\meta\desktop\c++ libraries\glm\detail\type_mat3x3.inl
+
+1424014283 c:\users\meta\desktop\c++ libraries\glm\mat3x4.hpp
+	"detail/type_mat3x4.hpp"
+
+1438468095 c:\users\meta\desktop\c++ libraries\glm\detail\type_mat3x4.hpp
+	"../fwd.hpp"
+	"type_vec3.hpp"
+	"type_vec4.hpp"
+	"type_mat.hpp"
+	<limits>
+	<cstddef>
+	"type_mat3x4.inl"
+
+1438470191 c:\users\meta\desktop\c++ libraries\glm\detail\type_mat3x4.inl
+
+1424014283 c:\users\meta\desktop\c++ libraries\glm\mat4x2.hpp
+	"detail/type_mat4x2.hpp"
+
+1438468017 c:\users\meta\desktop\c++ libraries\glm\detail\type_mat4x2.hpp
+	"../fwd.hpp"
+	"type_vec2.hpp"
+	"type_vec4.hpp"
+	"type_mat.hpp"
+	<limits>
+	<cstddef>
+	"type_mat4x2.inl"
+
+1438470017 c:\users\meta\desktop\c++ libraries\glm\detail\type_mat4x2.inl
+
+1424014283 c:\users\meta\desktop\c++ libraries\glm\mat4x3.hpp
+	"detail/type_mat4x3.hpp"
+
+1438467958 c:\users\meta\desktop\c++ libraries\glm\detail\type_mat4x3.hpp
+	"../fwd.hpp"
+	"type_vec3.hpp"
+	"type_vec4.hpp"
+	"type_mat.hpp"
+	<limits>
+	<cstddef>
+	"type_mat4x3.inl"
+
+1438470532 c:\users\meta\desktop\c++ libraries\glm\detail\type_mat4x3.inl
+
+1424014283 c:\users\meta\desktop\c++ libraries\glm\mat4x4.hpp
+	"detail/type_mat4x4.hpp"
+
+1438467899 c:\users\meta\desktop\c++ libraries\glm\detail\type_mat4x4.hpp
+	"../fwd.hpp"
+	"type_vec4.hpp"
+	"type_mat.hpp"
+	<limits>
+	<cstddef>
+	"type_mat4x4.inl"
+
+1438469995 c:\users\meta\desktop\c++ libraries\glm\detail\type_mat4x4.inl
+
+1424014283 c:\users\meta\desktop\c++ libraries\glm\trigonometric.hpp
+	"detail/func_trigonometric.hpp"
+
+1424014283 c:\users\meta\desktop\c++ libraries\glm\detail\func_trigonometric.hpp
+	"setup.hpp"
+	"precision.hpp"
+	"func_trigonometric.inl"
+
+1424014283 c:\users\meta\desktop\c++ libraries\glm\detail\func_trigonometric.inl
+	"_vectorize.hpp"
+	<cmath>
+	<limits>
+
+1424014283 c:\users\meta\desktop\c++ libraries\glm\detail\_vectorize.hpp
+	"type_vec1.hpp"
+	"type_vec2.hpp"
+	"type_vec3.hpp"
+	"type_vec4.hpp"
+
+1438467873 c:\users\meta\desktop\c++ libraries\glm\detail\type_vec1.hpp
+	"../fwd.hpp"
+	"type_vec.hpp"
+	"_swizzle.hpp"
+	"_swizzle_func.hpp"
+	<cstddef>
+	"type_vec1.inl"
+
+1438471346 c:\users\meta\desktop\c++ libraries\glm\detail\type_vec1.inl
+
+1424014283 c:\users\meta\desktop\c++ libraries\glm\exponential.hpp
+	"detail/func_exponential.hpp"
+
+1424014283 c:\users\meta\desktop\c++ libraries\glm\detail\func_exponential.hpp
+	"type_vec1.hpp"
+	"type_vec2.hpp"
+	"type_vec3.hpp"
+	"type_vec4.hpp"
+	<cmath>
+	"func_exponential.inl"
+
+1424014283 c:\users\meta\desktop\c++ libraries\glm\detail\func_exponential.inl
+	"func_vector_relational.hpp"
+	"_vectorize.hpp"
+	<limits>
+	<cmath>
+	<cassert>
+
+1424014283 c:\users\meta\desktop\c++ libraries\glm\detail\func_vector_relational.hpp
+	"precision.hpp"
+	"setup.hpp"
+	"func_vector_relational.inl"
+
+1424014283 c:\users\meta\desktop\c++ libraries\glm\detail\func_vector_relational.inl
+	<limits>
+
+1424014283 c:\users\meta\desktop\c++ libraries\glm\common.hpp
+	"detail/func_common.hpp"
+
+1424014283 c:\users\meta\desktop\c++ libraries\glm\detail\func_common.hpp
+	"setup.hpp"
+	"precision.hpp"
+	"type_int.hpp"
+	"_fixes.hpp"
+	"func_common.inl"
+
+1424014283 c:\users\meta\desktop\c++ libraries\glm\detail\func_common.inl
+	"func_vector_relational.hpp"
+	"type_vec2.hpp"
+	"type_vec3.hpp"
+	"type_vec4.hpp"
+	"_vectorize.hpp"
+	<limits>
+
+1424014283 c:\users\meta\desktop\c++ libraries\glm\packing.hpp
+	"detail/func_packing.hpp"
+
+1424014283 c:\users\meta\desktop\c++ libraries\glm\detail\func_packing.hpp
+	"type_vec2.hpp"
+	"type_vec4.hpp"
+	"func_packing.inl"
+
+1437262117 c:\users\meta\desktop\c++ libraries\glm\detail\func_packing.inl
+	"func_common.hpp"
+	"type_half.hpp"
+	"../fwd.hpp"
+
+1424014283 c:\users\meta\desktop\c++ libraries\glm\detail\type_half.hpp
+	"setup.hpp"
+	"type_half.inl"
+
+1424014283 c:\users\meta\desktop\c++ libraries\glm\detail\type_half.inl
+
+1424014283 c:\users\meta\desktop\c++ libraries\glm\geometric.hpp
+	"detail/func_geometric.hpp"
+
+1424014283 c:\users\meta\desktop\c++ libraries\glm\detail\func_geometric.hpp
+	"type_vec3.hpp"
+	"func_geometric.inl"
+
+1424014283 c:\users\meta\desktop\c++ libraries\glm\detail\func_geometric.inl
+	"func_exponential.hpp"
+	"func_common.hpp"
+	"type_vec2.hpp"
+	"type_vec4.hpp"
+	"type_float.hpp"
+
+1424014283 c:\users\meta\desktop\c++ libraries\glm\matrix.hpp
+	"detail/func_matrix.hpp"
+
+1424014283 c:\users\meta\desktop\c++ libraries\glm\detail\func_matrix.hpp
+	"../detail/precision.hpp"
+	"../detail/setup.hpp"
+	"../detail/type_mat.hpp"
+	"../vec2.hpp"
+	"../vec3.hpp"
+	"../vec4.hpp"
+	"../mat2x2.hpp"
+	"../mat2x3.hpp"
+	"../mat2x4.hpp"
+	"../mat3x2.hpp"
+	"../mat3x3.hpp"
+	"../mat3x4.hpp"
+	"../mat4x2.hpp"
+	"../mat4x3.hpp"
+	"../mat4x4.hpp"
+	"func_matrix.inl"
+
+1424014283 c:\users\meta\desktop\c++ libraries\glm\detail\func_matrix.inl
+	"../geometric.hpp"
+	<limits>
+
+1424014283 c:\users\meta\desktop\c++ libraries\glm\vector_relational.hpp
+	"detail/func_vector_relational.hpp"
+
+1424014283 c:\users\meta\desktop\c++ libraries\glm\integer.hpp
+	"detail/func_integer.hpp"
+
+1424014283 c:\users\meta\desktop\c++ libraries\glm\detail\func_integer.hpp
+	"setup.hpp"
+	"precision.hpp"
+	"func_common.hpp"
+	"func_vector_relational.hpp"
+	"func_integer.inl"
+
+1426535103 c:\users\meta\desktop\c++ libraries\glm\detail\func_integer.inl
+	"type_vec2.hpp"
+	"type_vec3.hpp"
+	"type_vec4.hpp"
+	"type_int.hpp"
+	"_vectorize.hpp"
+	<intrin.h>
+	<limits>
+
+1437313941 c:\users\meta\desktop\c++ libraries\glm\gtc\matrix_transform.hpp
+	"../mat4x4.hpp"
+	"../vec2.hpp"
+	"../vec3.hpp"
+	"../vec4.hpp"
+	"../gtc/constants.hpp"
+	"matrix_transform.inl"
+
+1424014283 c:\users\meta\desktop\c++ libraries\glm\gtc\constants.hpp
+	"../detail/setup.hpp"
+	"constants.inl"
+
+1424014283 c:\users\meta\desktop\c++ libraries\glm\gtc\constants.inl
+	<limits>
+
+1426534869 c:\users\meta\desktop\c++ libraries\glm\gtc\matrix_transform.inl
+	"../geometric.hpp"
+	"../trigonometric.hpp"
+	"../matrix.hpp"
+
+1424014283 c:\users\meta\desktop\c++ libraries\glm\gtc\type_ptr.hpp
+	"../gtc/quaternion.hpp"
+	"../vec2.hpp"
+	"../vec3.hpp"
+	"../vec4.hpp"
+	"../mat2x2.hpp"
+	"../mat2x3.hpp"
+	"../mat2x4.hpp"
+	"../mat3x2.hpp"
+	"../mat3x3.hpp"
+	"../mat3x4.hpp"
+	"../mat4x2.hpp"
+	"../mat4x3.hpp"
+	"../mat4x4.hpp"
+	<cstring>
+	"type_ptr.inl"
+
+1438471086 c:\users\meta\desktop\c++ libraries\glm\gtc\quaternion.hpp
+	"../mat3x3.hpp"
+	"../mat4x4.hpp"
+	"../vec3.hpp"
+	"../vec4.hpp"
+	"../gtc/constants.hpp"
+	"quaternion.inl"
+
+1438472000 c:\users\meta\desktop\c++ libraries\glm\gtc\quaternion.inl
+	"../trigonometric.hpp"
+	"../geometric.hpp"
+	"../exponential.hpp"
+	<limits>
+
+1424014283 c:\users\meta\desktop\c++ libraries\glm\gtc\type_ptr.inl
+	<cstring>
+
+1394253593 c:\users\meta\desktop\c++ libraries\sdl2-2.0.3\include\sdl_opengl.h
+	"SDL_config.h"
+	<windows.h>
+	<OpenGL/gl.h>
+	<GL/gl.h>
+	<windows.h>
+	<stddef.h>
+	<inttypes.h>
+	<inttypes.h>
+	<inttypes.h>
+	<stdint.h>
+	<stdint.h>
+	<inttypes.h>
+
+1422103550 source:c:\users\meta\desktop\conjure\src\glew.c
+	<GL/glew.h>
+	<GL/wglew.h>
+	<GL/glxew.h>
+	<stddef.h>
+	<dlfcn.h>
+	<stdio.h>
+	<stdlib.h>
+	<stdlib.h>
+	<string.h>
+	<AvailabilityMacros.h>
+	<dlfcn.h>
+	<mach-o/dyld.h>
+
+1422332293 c:\users\meta\desktop\c++ libraries\glew-1.12.0\include\gl\wglew.h
+	<windows.h>
+
+1422332293 c:\users\meta\desktop\c++ libraries\glew-1.12.0\include\gl\glxew.h
+	<X11/Xlib.h>
+	<X11/Xutil.h>
+	<X11/Xmd.h>
+	<GL/glew.h>
+
+1441948382 c:\users\meta\desktop\conjure\include\mapcore.h
+	<iostream>
+	<vector>
+	<string>
+	<fstream>
+	<stdlib.h>
+
+1441948108 source:c:\users\meta\desktop\conjure\src\mapcore.cpp
+	"MapCore.h"
+
+1439565283 source:c:\users\meta\desktop\conjure\src\isoconversion.cpp
+	"IsoConversion.h"
+
+1438876820 c:\users\meta\desktop\conjure\include\isoconversion.h
+
+1439930786 c:\users\meta\desktop\conjure\include\monstercore.h
+	<iostream>
+	<stdlib.h>
+	<GameObject.h>
+	<GameDataCore.h>
+
+1439922171 source:c:\users\meta\desktop\conjure\src\monstercore.cpp
+	"MonsterCore.h"
+
+1439853929 c:\users\meta\desktop\conjure\include\soundprocesscore.h
+	<stdio.h>
+	<iostream>
+	<vector>
+	<SDL.h>
+	<SDL2/SDL_mixer.h>
+	<SoundQueueCore.h>
+
+1439853588 c:\users\meta\desktop\conjure\include\soundqueuecore.h
+	<vector>
+	<SDL2/SDL_mixer.h>
+
+1440642395 source:c:\users\meta\desktop\conjure\src\soundprocesscore.cpp
+	"SoundProcessCore.h"
+
+1376156425 c:\users\meta\desktop\c++ libraries\sdl2_mixer-2.0.0\i686-w64-mingw32\include\sdl2\sdl_mixer.h
+	"SDL_stdinc.h"
+	"SDL_rwops.h"
+	"SDL_audio.h"
+	"SDL_endian.h"
+	"SDL_version.h"
+	"begin_code.h"
+	"close_code.h"
+
+1439834012 source:c:\users\meta\desktop\conjure\src\soundqueuecore.cpp
+	"SoundQueueCore.h"
+
+1442183450 c:\users\meta\desktop\conjure\include\pathfinder.h
+	<list>
+

@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1452748999 source:c:\users\meta\desktop\go online client\notepad parser\src\main.cpp
+	<iostream>
+	<fstream>
+	<string>
+

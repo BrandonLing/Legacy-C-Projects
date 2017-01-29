@@ -1,0 +1,16 @@
+Immediate:
+add quick menu for end turn/attack
+add attacking
+transparency of box and players behind walls
+add ambient tiles such as buildings and trees
+add collision to ambient tiles like trees and buildings
+change render text color function
+
+Bugs:
+sometimes crashes when pushing escape too many times (hasn't happened yet)
+player jumps up unfair paths from behind if another exists
+
+Maybe:
+fix drawText() to use isometric coordinates MAYBE?
+pipe puzzle game
+

@@ -1,0 +1,3 @@
+For some reason when I try to draw from a buffer, the 0th index of the buffer vector goes out of scope when the x value is greater than 1.0.  It does not happen to y. Ended up padding it with 0s to patch it.
+
+The buffer does not go out of scope. I can print the values to console with no issues. The problem seems to lie with the GPU storage of the index 0th position value when it is greater than 1.0.

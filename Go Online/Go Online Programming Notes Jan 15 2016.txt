@@ -1,0 +1,13 @@
+get animations working for walking (basic pipeline)
+log clients off
+time clients out
+check for duplicate logins
+
+slash
+back step
+wind blade/thrust type moves
+roll/sidestep move
+
+
+
+10 sc
